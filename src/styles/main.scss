@@ -1,0 +1,25 @@
+@use 'vuetify/settings' with (
+  $body-font-family: ('Montserrat', sans-serif)
+);
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #faf7f2;
+  color: #3c2f2f;
+}
+
+a {
+  color: inherit;
+}
+
+.section-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+}
+
+.section-subtitle {
+  font-size: 1.125rem;
+  color: rgba(0, 0, 0, 0.6);
+}
